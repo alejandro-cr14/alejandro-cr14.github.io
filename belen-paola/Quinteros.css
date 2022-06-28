@@ -1,0 +1,59 @@
+.cont1{
+    font-size: 25pt;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    background-color: dodgerblue;
+    text-align: center;
+    display: grid;
+    grid-template-columns: (3,120px);
+    grid-template-rows: (3,120px);
+    gap: 20px;
+    grid-template-areas:"left1  arriba  right1"
+                         "left2  contenido right2"
+                         "left3  conteni2  right3"
+                         "abajo abajo  abajo";
+}
+
+h2{
+    grid-area: left1;
+    justify-self: stretch;
+    align-self: stretch;
+}
+.cont1 .uno{
+    grid-area: arriba;
+}
+
+.cont1 .dos{
+    grid-area: right1;
+}
+
+
+
+img{
+    width: 300px;
+    height: 300px;
+    border: 8px solid rgb(255, 46, 126);
+
+    
+}
+
+h2{
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+    background-color: rgb(214, 83, 83);
+    text-align: center;
+}
+
+div{
+    font-size: 30px;
+    color: rgb(37, 236, 53);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cont2{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: navy;
+    background-color: rgb(24, 219, 219);
+    
+}
